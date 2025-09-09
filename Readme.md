@@ -14,7 +14,7 @@ The input RGBA graphic is loaded and an instance of *CGImage* created. Calling t
     init?(data:width:height:bitsPerComponent:bytesPerRow:space:bitmapInfo:)
 ```
 
-Drawing into this context will convert the interleaved RGBA pixels of the *CGImage* object (passed as a parameter to the function:
+Drawing into this context will convert the interleaved RGBA pixels of the *CGImage* object (passed as a parameter to the function):
 
 ```swift
 
