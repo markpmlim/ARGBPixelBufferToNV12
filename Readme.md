@@ -9,11 +9,17 @@ A major part of the action takes place in the function **buildResources**.
 
 The input RGBA graphic is loaded and an instance of *CGImage* created. Calling the function **cvPixelBufferFromImage** will create a blank *CVPixelBuffer* object. Next, the function sets up a call to create a Quartz 2D context using the CoreGraphics initializer:
 
+```swift
+
     init?(data:width:height:bitsPerComponent:bytesPerRow:space:bitmapInfo:)
+```
 
 Drawing into this context will convert the interleaved RGBA pixels of the *CGImage* object (passed as a parameter to the function:
 
+```swift
+
 	draw(_:in:byTiling:)) 
+```
 
 into interleaved ARGB pixels. On return from the draw function, the memory of the **CVPixelBuffer** object will be populated with ARGB pixels.
 
