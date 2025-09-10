@@ -43,4 +43,4 @@ This demo allows both the *lumaTexture* and *chromaTexture* to be saved to an ex
 
 **Web-links:**
 
-https://dev.to/petertech/reducing-jpeg-uiimage-ram-usage-by-50-2jed
+https://zhuanlan.zhihu.com/p/666391674
