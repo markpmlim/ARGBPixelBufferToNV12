@@ -44,3 +44,6 @@ This demo allows both the *lumaTexture* and *chromaTexture* to be saved to an ex
 **Web-links:**
 
 https://zhuanlan.zhihu.com/p/666391674
+
+https://cloud.tencent.com/developer/article/2356467
+
