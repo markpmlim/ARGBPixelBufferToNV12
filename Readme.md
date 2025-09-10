@@ -28,12 +28,7 @@ A biplanar *CVPixelBuffer* object is then created by calling the function **CVPi
 
 Finally, two instances of *MTLTextures* are created from the contents of the biplanar CVPixelBuffer object by calling the function **texturesFromPixelBuffer**.
 
-These two textures are then passed to a kernel function as inputs. The kernel function outputs an RGB texture.
-
-A call to the function **createRGBTexture** will convert the two MTLTextures back to an RGBA texture.
-
-
-Since the rendering of the images is Metal-based, all textures are instances of the class *MTLTexture*.
+A call to the function **createRGBTexture** will convert these two MTLTextures back to an RGBA texture. These two textures are passed to a kernel function as inputs. The kernel function outputs an RGB texture.
 
 
 ***Expected Output:**
