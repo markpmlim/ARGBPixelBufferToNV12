@@ -77,8 +77,8 @@ class ViewController: NSViewController
             }
         }
 
-        let lumaURL = folderURL.appendingPathComponent("luma").appendingPathExtension("jpg")
-        let chromaURL = folderURL.appendingPathComponent("chroma").appendingPathExtension("jpg")
+        let lumaURL = folderURL.appendingPathComponent("luma").appendingPathExtension("png")
+        let chromaURL = folderURL.appendingPathComponent("chroma").appendingPathExtension("png")
         let fileURLS = [lumaURL, chromaURL]
 
         for i in 0...1 {
